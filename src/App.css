@@ -51,7 +51,7 @@ input{
   border: 1px solid white;
   outline: none;
   background: transparent;
-  caret-color: aqua;
+  caret-color: rgb(242, 197, 197);
   color: #fff;
   font-weight: bolder;
 }
@@ -86,4 +86,17 @@ button{
 }
 .todoText{
   flex: 1;
+}
+
+@media only screen and (max-width: 500px){
+  .container{
+    padding: 10px;
+    width: 350px;
+  }
+  .todoForm{
+    width: 300px;
+  }
+  .singleTodo{
+    width: 300px;
+  }
 }
