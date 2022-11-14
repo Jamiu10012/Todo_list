@@ -87,7 +87,19 @@ button{
 .todoText{
   flex: 1;
 }
-
+@media only screen and (max-width: 700px){
+  .container{
+    padding: 10px;
+    width: 400px;
+  }
+  .todoForm{
+    width: 350px;
+  }
+  .singleTodo{
+    width: 350px;
+  }
+  
+}
 @media only screen and (max-width: 500px){
   .container{
     padding: 10px;
@@ -99,4 +111,5 @@ button{
   .singleTodo{
     width: 300px;
   }
+  
 }
